@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  routeros-6-48:
-    image: evilfreelancer/docker-routeros:6.48.4
+  routeros-7-16:
+    image: evilfreelancer/docker-routeros:7.16
     restart: unless-stopped
     cap_add:
       - NET_ADMIN
